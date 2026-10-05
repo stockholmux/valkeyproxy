@@ -1,14 +1,5 @@
 Valkey Cluster shards data across multiple nodes by hash slot. That's great for scale, but it pushes real complexity onto every client.
 
-## This is a stub repo.
-
-This repo will containt the work-in-progress that was previously held in a private repo. Here is the _estimated_ timeline:
-
-- **Mid Oct 2026**: Migrate commits from private repo to this public repo under BSD-3-Clause license.  
-- **Nov-Dec 2026**: Public feedback, testing, documentation
-- **Dec 2026-Jan 2027**: Release candidates, general avaliability.
-
-
 ## The Problem
 
 The client must know (and keep up to date) the slot → node mapping.
@@ -22,6 +13,15 @@ application clients and a Valkey (or Redis) Cluster deployment. It speaks the pl
 
 This proposal summarizes what the proxy already does today, and what's on the roadmap next.
 We're sharing it publicly because we believe this fills a real gap for teams who want cluster-mode Valkey without rewriting their client code or vendoring a heavyweight client-side cluster implementation.
+
+## This is a stub repo.
+
+This repo will containt the work-in-progress that was previously held in a private repo. 
+Here is the _estimated_ timeline:
+
+- **Mid Oct 2026**: Prep repo, migrate commits from private repo to this public repo under BSD-3-Clause license.  
+- **Nov-Dec 2026**: Public feedback, testing, documentation
+- **Dec 2026-Jan 2027**: Automation, release candidates, general avaliability.
 
 ## Why This Matters
 
